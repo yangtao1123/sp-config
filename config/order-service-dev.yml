@@ -2,6 +2,12 @@ spring:
   application:
     name: order-service
     
+  rabbitmq:
+    host: 192.168.153.133
+    port: 5672
+    username: admin
+    password: admin
+    
 #server:
 #  port: 8201
 
@@ -34,9 +40,5 @@ spring:
 server:
   port: 8202
   
-  rabbitmq:
-    host: 192.168.153.133
-    port: 5672
-    username: admin
-    password: admin
+
   
